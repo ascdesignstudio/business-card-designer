@@ -12,7 +12,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Business Card Designer</h1>
+                <h1>Business Card Designer Version 1</h1>
             </div>
         </div>
         <div class="container-fluid">
@@ -26,28 +26,28 @@
                             <input type="text" class="form-control" id="inputCompany" onkeyup="printCompany()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputMessage" class="col-sm-3 control-label">Company Message:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputMessage" onkeyup="printMessage()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputBg" class="col-sm-3 control-label">Background Color:</label>
                         <div class="col-sm-9">
                             <input type="color" class="form-control" id="inputBg" value="#ffb74d" onchange="changeBg()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputText" class="col-sm-3 control-label">Text Color:</label>
                         <div class="col-sm-9">
                             <input type="color" class="form-control" id="inputText" value="#262626" onchange="changeText()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputText" class="col-sm-3 control-label">Text Align</label>
                         <div class="col-sm-9">
@@ -55,50 +55,50 @@
                             <input type="button" class="btn btn-info" value="Center" id="text-center" onclick="textAlign(this.id)">
                             <input type="button" class="btn btn-info" value="Right" id="text-right" onclick="textAlign(this.id)">
                         </div>
-                    </div>              
-                    
+                    </div>
+
                     <div class="form-group">
                         <label for="inputName" class="col-sm-3 control-label">Your Name:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputName" onkeyup="printName()">
                         </div>
-                    </div> 
-                    
+                    </div>
+
                     <div class="form-group">
                         <label for="inputJob" class="col-sm-3 control-label">Job Title:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputJob" onkeyup="printJob()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputEmail" class="col-sm-3 control-label">Email:</label>
                         <div class="col-sm-9">
                             <input type="email" class="form-control" id="inputEmail" onkeyup="printEmail()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="inputTelephone" class="col-sm-3 control-label">Telephone Number:</label>
                         <div class="col-sm-9">
                             <input type="tel" class="form-control" id="inputTelephone" onkeyup="printTelephone()">
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
-                        
+
                         <div class="col-sm-3 col-sm-offset-3">
                             <input type="button" onclick="formSubmit()" value="Submit">
                         </div>
-                        
+
                         <div class="col-sm-3">
                             <input type="button" onclick="formReset()" value="Clear">
                         </div>
-                    </div>                    
+                    </div>
                 </form>
             </div>
             <!-- Output Section -->
-            
+
             <div class="col-sm-12 col-md-6">
                 <div id="card">
                     <h3 id="outputCompany">Company Name</h3>
@@ -109,11 +109,9 @@
                     <p id="outputTelephone" class="small">Tel:</p>
                 </div>
             </div>
-          
+
         </div>
-    </div>                                            
+    </div>
     <script src="custom.js"></script>
 </body>
 </html>
-
-
